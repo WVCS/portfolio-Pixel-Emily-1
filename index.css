@@ -1,0 +1,55 @@
+Body{
+background-image: url('https://www.birchbox.co.uk/images/uploads/April_BoxDesign_Screensaver_Desktop1920x1080px.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  grid-row-gap: 20px; 
+  grid-column-gap: 20px; 
+}
+
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  float: right;
+ background-color: #DD3369;
+  color: #E7D7C1;
+}
+
+li{
+  display: inline;
+  float: left;
+  
+}
+li a{
+  display: block;
+  text-decoration: none;
+padding: 5px 50px;
+  color: #E7D7C1;
+ }
+
+li a:hover{
+  color: black;
+}
+
+.item1{
+  background-color: #A738C9;
+  border: 1px solid #fff;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
